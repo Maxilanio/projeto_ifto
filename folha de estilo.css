@@ -1,0 +1,77 @@
+.jumbotron {
+	background-image: url('imagens/hospitalarazul.jpg');
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #007bff;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    /*margin-right: 0px;
+    margin-left: 0px;*/
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+section#adic_recent h2 {
+	text-align: center;
+}
+
+.mestre {
+    width: 46px; 
+    height: 46px;
+}
+
+.icones a{	
+	display: block; 
+	width: 36px;
+	height: 36px;
+}
+
+.icones li {
+	display: inline-block;
+	margin: 5px;
+}
+
+.icones a[href='https://www.github.com/']{
+	background-image: url('imagens/github.png');
+	background-size:  36px 36px;
+}
+
+.icones a[href='https://www.google.com/']{
+	background-image: url('imagens/plus.png');
+	background-size:  36px 36px;
+}
+
+.icones a[href='https://www.br.linkedin.com/']{
+	background-image: url('imagens/linkedin.png');
+	background-size:  36px 36px;
+}
+
+.icones a[href='https://www.facebook.com/']{
+	background-image: url('imagens/fb-logo.jpg');
+	background-size:  36px 36px;
+}
+
+.color {
+	color: #fff;
+}
+
+section#melhor_avaliado h3, figcaption {
+	color: #fff;
+}
+
+section#melhor_avaliado article {
+	color:  #fff;
+}
+
+
+
